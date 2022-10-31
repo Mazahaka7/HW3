@@ -23,11 +23,11 @@ body{
 .logo-yellow {
     color: #E8C23E;
 }
-.hero{
+
+.hero-image{
+    box-sizing: border-box;
     max-height: 803px;
     max-width: 1440px;
-}
-.hero-image{
     background-image: url(../img/Fon.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
