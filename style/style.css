@@ -1,0 +1,146 @@
+.container {
+    max-width: 1280px;
+}
+body{
+    font-family: 'Inika', serif;
+}
+.header {
+    max-height: 110px;
+}
+.logo-blue {
+    text-transform: uppercase;
+    text-align: center;
+
+    margin: 25px auto;
+    color:#3E45E8;
+
+    font-family: 'M PLUS 1', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.4;
+    letter-spacing: 0.1em;
+}
+.logo-yellow {
+    color: #E8C23E;
+}
+.hero{
+    max-height: 803px;
+    max-width: 1440px;
+}
+.hero-image{
+    background-image: url(../img/Fon.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text-banner {
+    height: 439px;
+    max-width: 1036px;
+    padding-top: 206px;
+
+    background-image: url(../img/flag.jpeg);
+    background-repeat: no-repeat;
+    background-position-x: 80px;
+    background-position-y: 206px;
+
+    text-transform: uppercase;
+    font-size: 48px;
+    line-height: 1.5;
+    text-size-adjust: 100%;
+
+    margin-top: 0;
+    padding-left: 118px;  
+    color: #ffffff;
+}
+.line{
+    width: 361px;
+    border-bottom: 5px solid #33B8F1;
+}
+.section-places{
+    text-align: left;
+    margin-top: 72px;
+}
+.card-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 58px;
+}
+.section-heading{
+    font-family:'Inika', serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height:1.5;
+    text-transform: uppercase;
+    /* border-bottom: 5px solid #3E45E8; */
+
+}
+.card{
+    background-color:#FFFFFF;
+    /* display: inline-block; */
+    width: 29%;
+    height: 481px;
+    border: 1px solid gray;
+    border-radius: 7%;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgb(0 0 0 / 50%);
+}
+.card > img{
+    width: 100%;
+}
+.card:not(:last-child){
+    margin-right: 32px;
+}
+.card-heading{
+    font-family: 'Inika', serif;
+    font-weight: 700;
+    font-size: 24px;
+
+    margin-left: 10px;
+    color: #1E8DF2;
+}
+.card-subtitle{
+    font-family: 'Inika', serif;
+    font-size: 20px;
+    font-weight: 400;
+
+    margin-left: 10px;
+    color: #E8C23E;
+}
+
+.ukraine-map{
+    text-align: center;
+    margin-top: 74px;
+}
+.ukraine-map .line{
+    margin: 0 auto;
+}
+.map-image > img{
+    max-width: 100%;
+    margin-top: 62px;
+}
+
+footer{
+    height: 320px;
+    background-color: #2F4A4B;
+    text-align: center;
+}
+
+.footer-heading{
+    margin-bottom: 21px;
+}
+.contacts > li{
+    list-style-type: none;
+    padding-bottom: 21px;
+}
+.contacts .link{
+    font-family: 'Marcellus SC', serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.25;
+    letter-spacing: 0.1em;
+    
+    text-decoration: none;
+    color: #A89D9D;   
+}
+.social-link > li{
+    display: inline-block;
+}
