@@ -1,6 +1,4 @@
-.container {
-    max-width: 1280px;
-}
+
 body{
     font-family: 'Inika', serif;
 }
@@ -26,11 +24,12 @@ body{
 
 .hero-image{
     box-sizing: border-box;
-    max-height: 803px;
-    max-width: 1440px;
+    min-height: 803px;
+    min-width: 100%;
     background-image: url(../img/Fon.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .text-banner {
     height: 439px;
@@ -63,6 +62,7 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 58px;
+    
 }
 .section-heading{
     font-family:'Inika', serif;
@@ -77,20 +77,21 @@ body{
     background-color:#FFFFFF;
     /* display: inline-block; */
     width: 29%;
-    height: 481px;
+    min-height: 481px;
     border: 1px solid gray;
-    border-radius: 7%;
+    border-radius: 50px;
     overflow: hidden;
-    box-shadow: 0px 4px 6px rgb(0 0 0 / 50%);
+    box-shadow: 0px 4px 57px 3px rgb(0, 0, 0, 0.25);
+    
 }
 .card > img{
+    border-radius: 30px 30px 10px 10px;
     width: 100%;
 }
 .card:not(:last-child){
     margin-right: 32px;
 }
 .card-heading{
-    font-family: 'Inika', serif;
     font-weight: 700;
     font-size: 24px;
 
@@ -98,7 +99,6 @@ body{
     color: #1E8DF2;
 }
 .card-subtitle{
-    font-family: 'Inika', serif;
     font-size: 20px;
     font-weight: 400;
 
@@ -122,7 +122,6 @@ body{
     width: 591px;
     height: 121px;
 
-    font-family: 'Inika', serif;
     font-size: 64px;
     font-weight: 700;
     line-height: 1.5;
